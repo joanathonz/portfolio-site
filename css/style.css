@@ -1,53 +1,90 @@
-/*
-Colors used:
-Primary Color (Blue): #171339;
+/*Colors used:Primary Color (Blue): #171339;
 Supporting Color (Light Blue) #5065AB;
 Supporting Color (Green): #0C9961
-Supporting Color (Light Green): #ECF6F2
-Background Color (White): #FFFFFF;
+Supporting Color (Light Green): #ECF6F2Background Color (White): #FFFFFF;
 */
-body{background-color: #ffffff;
-      font-family: 'Poppins', sans-serif;
-      font-size: 16px; /* Sets the font size to 16px */
- font-weight: 300; /* Sets the font weight to 300 */
- line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
- color: #171339;}
-h1, h2, h3, h4 {line-height: 1.4;}
-h1 {font-size: 2.75em;
-  font-weight: 700;}
-h2 {font-size: 2.25em;
-  font-weight: 700;}
-h3 {font-size: 1.75em;
-  font-weight: 400;}
-h4 {font-size: 1.35em;
-  font-weight: 400;}
-img {width: 100%;}
-a {color: #0C9961;
-  text-decoration: none;} /* No underlining */
-a:hover {color: #5065AB;
-  text-decoration: underline;} /* Underlining when hovering over a link */
-a:visited { /* visited link */
-    color: #FFFFFF;}
-a:active { /* selected link */
-    color: #FFFFFF;}
-    a:hover,
-a:focus {color: #FFFFFF;
-  text-decoration: underline;}
+body{
+	background-color: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	/* Sets the font size to 16px */
+	font-weight: 300;
+	/* Sets the font weight to 300 */
+	line-height: 1.6;
+	/* Sets the line-height to 1.6 * the font-size */
+	color: #171339;
+}
+h1, h2, h3, h4 {
+	line-height: 1.4;
+}
+h1 {
+	font-size: 2.75em;
+	font-weight: 700;
+}
+h2 {
+	font-size: 2.25em;
+	font-weight: 700;
+}
+h3 {
+	font-size: 1.75em;
+	font-weight: 400;
+}
+h4 {
+	font-size: 1.35em;
+	font-weight: 400;
+}
+img {
+	width: 100%;
+}
+a {
+	color: #0C9961;
+	text-decoration: none;
+}
+/* No underlining */
+a:hover {
+	color: #171339;
+	text-decoration: underline;
+}
+/* Underlining when hovering over a link */
+a:visited {
+	/* visited link */
+	color: #171339;
+}
+a:active {
+	/* selected link */
+	color: #171339;
+}
+a:hover,a:focus {
+	color: #171339;
+	text-decoration: underline;
+}
 .button {
-    display: inline-block;
-    background-color: #171339;
-    color: #ffffff;
-    font-weight: 400;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #171339; /* width of the border, type, color */
-    transition: 0.2s opacity;}
-  .button:hover {
-    opacity: 0.8; /* Reduces the opacity of the button to 80% */
-    text-decoration: none;}
-  .button.contact {background-color: transparent;
-  color: #171339;
-  text-transform: uppercase;
-  border: 2px solid #171339;}
-.button.contact:hover {background-color: #171339;
-  color: #ffffff;}
+	display: inline-block;
+	background-color: #171339;
+	color: #ffffff;
+	font-weight: 400;
+	padding: 10px;
+	border-radius: 3px;
+	border-bottom: 2px solid #171339;
+	/* width of the border, type, color */
+	transition: 0.2s opacity;
+}
+.button:visited {
+	background-color: #171339;
+	color: #ffffff;
+}
+.button:hover {
+	opacity: 0.8;
+	/* Reduces the opacity of the button to 80% */
+	text-decoration: none;
+}
+.button.contact {
+	background-color: transparent;
+	color: #171339;
+	text-transform: uppercase;
+	border: 2px solid #171339;
+}
+.button.contact:hover {
+	background-color: #171339;
+	color: #ffffff;
+}

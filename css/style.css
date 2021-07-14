@@ -1,8 +1,12 @@
 /*Colors used:Primary Color (Blue): #171339;
 Supporting Color (Light Blue) #5065AB;
 Supporting Color (Green): #0C9961
-Supporting Color (Light Green): #ECF6F2Background Color (White): #FFFFFF;
+Supporting Color (Light Green): #ECF6F2
+Background Color (White): #FFFFFF;
 */
+*{
+	box-sizing: border-box;
+}
 body{
 	background-color: #ffffff;
 	font-family: 'Poppins', sans-serif;
@@ -87,4 +91,53 @@ a:hover,a:focus {
 .button.contact:hover {
 	background-color: #171339;
 	color: #ffffff;
+}
+header {
+  background-color: #ECF6F2;
+	text-align: center;
+  padding: 10px;
+	position: fixed;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.65);
+-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.65);
+box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.65);
+}
+main {
+	padding-top:133px;
+}
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#mywork .row {
+	padding-bottom: 25px; border-bottom: 1px solid #171339;
+}
+#home h1 {
+	text-align: center;
+}
+.logo {
+	max-width: 250px;
+}
+nav > ul {
+	list-style-type: none;
+	padding: 0;
+}
+nav > ul > li {
+	display: inline-block;
+}
+nav > ul > li > a {
+	padding: 0 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #ffffff;
+}
+nav > ul > li > a:visited {
+	color: #0C9961;
+}
+#home {
+	background-color: #ECF6F2
+	padding: 20px 0;
 }

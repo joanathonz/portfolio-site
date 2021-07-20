@@ -121,20 +121,20 @@ main {
 .logo {
 	max-width: 250px;
 }
-nav > ul {
+nav ul {
 	list-style-type: none;
 	padding: 0;
 }
-nav > ul > li {
+nav ul li {
 	display: inline-block;
 }
-nav > ul > li > a {
+nav ul li a {
 	padding: 0 15px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #ffffff;
 }
-nav > ul > li > a:visited {
+nav ul li a:visited {
 	color: #0C9961;
 }
 #home {

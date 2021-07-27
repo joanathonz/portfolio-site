@@ -142,10 +142,21 @@ nav ul li a {
 	padding: 0 15px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #ffffff;
+	color: #0C9961;
 }
 nav ul li a:visited {
 	color: #0C9961;
+}
+.social {
+	text-align: left;
+}
+.social a {
+	display: inline-block;
+	margin: 5px;
+}
+.social svg {
+	width: 50px;
+	height: auto;
 }
 #home {
 	background-color: #ECF6F2

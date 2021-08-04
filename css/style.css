@@ -1,6 +1,6 @@
 /*Colors used:Primary Color (Blue): #171339;
 Supporting Color (Light Blue) #5065AB;
-Supporting Color (Green): #0C9961
+Supporting Color (Green): #0B8756
 Supporting Color (Light Green): #ECF6F2
 Background Color (White): #FFFFFF;
 */
@@ -49,29 +49,29 @@ img {
 }
 
 a {
-  color: #0C9961;
+  color: #0B8756;
   text-decoration: none;
 }
 
 /* No underlining */
 a:hover {
-  color: #0C9961;
+  color: #0B8756;
   text-decoration: underline;
 }
 
 /* Underlining when hovering over a link */
 a:visited {
   /* visited link */
-  color: #0C9961;
+  color: #0B8756;
 }
 
 a:active {
   /* selected link */
-  color: #0C9961;
+  color: #0B8756;
 }
 
 a:hover, a:focus {
-  color: #0C9961;
+  color: #0B8756;
   text-decoration: underline;
 }
 
@@ -169,11 +169,11 @@ nav ul li a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #0C9961;
+  color: #0B8756;
 }
 
 nav ul li a:visited {
-  color: #0C9961;
+  color: #0B8756;
 }
 
 .navtoggle li:not(:last-child) {

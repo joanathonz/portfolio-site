@@ -111,9 +111,6 @@ a:hover, a:focus {
   color: #ffffff;
 }
 
-footer {
-}
-
 #projectpagetitle{
   padding-top:60px;
 }
@@ -138,8 +135,12 @@ main {
   padding: 0 15px;
 }
 
+.alittlebitaboutme{
+  padding: 0px;
+}
+
 .knowme {
-  padding: 25px;
+  padding: 15px;
   padding-top: 30px;
 }
 .row {
@@ -336,6 +337,10 @@ Medium devices (640px and larger)
     padding: 10px;
   }
 
+  .alittlebitaboutme{
+    padding: 0px;
+  }
+
   .row::after {
     content: "";
     clear: both;
@@ -390,3 +395,6 @@ Medium devices (640px and larger)
 }
 
 @media only screen and (min-width: 1440px) {}
+  .alittlebitaboutme{
+    padding: 0px;
+  }

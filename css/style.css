@@ -1,4 +1,4 @@
-/*Colors used:Primary Color (Blue): #171339;
+/*Colors used:Primary Color (Blue): #2D4D5D;
 Supporting Color (Light Blue) #5065AB;
 Supporting Color (Green): #0B8756
 Supporting Color (Light Green): #ECF6F2
@@ -17,7 +17,7 @@ body {
   /* Sets the font weight to 300 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
-  color: #171339;
+  color: #2D4D5D;
 }
 
 h1, h2, h3, h4 {
@@ -49,46 +49,47 @@ img {
 }
 
 a {
-  color: #0B8756;
-  text-decoration: none;
+  color: #2D4D5D;
+  text-decoration: underline;
 }
 
 /* No underlining */
 a:hover {
-  color: #0B8756;
+  color: #2D4D5D;
   text-decoration: underline;
 }
 
 /* Underlining when hovering over a link */
 a:visited {
   /* visited link */
-  color: #0B8756;
+  color: #2D4D5D;
 }
 
 a:active {
   /* selected link */
-  color: #0B8756;
+  color: #2D4D5D;
 }
 
 a:hover, a:focus {
-  color: #0B8756;
+  color: #2D4D5D;
   text-decoration: underline;
 }
 
 .button {
   display: inline-block;
-  background-color: #171339;
+  text-decoration: none;
+  background-color: #2D4D5D;
   color: #ffffff;
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #171339;
+  border-bottom: 2px solid #2D4D5D;
   /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
 .button:visited {
-  background-color: #171339;
+  background-color: #2D4D5D;
   color: #ffffff;
 }
 
@@ -100,9 +101,9 @@ a:hover, a:focus {
 
 .button.contact {
   background-color: transparent;
-  color: #171339;
+  color: #2D4D5D;
   text-transform: uppercase;
-  border: 2px solid #171339;
+  border: 2px solid #2D4D5D;
 }
 
 .button.contact:hover {
@@ -157,6 +158,7 @@ span {
   max-width: 150px;
   margin-bottom: 20px;
   display: inline-block;
+  font-weight: bold;
 }
 
 nav ul {
@@ -169,11 +171,11 @@ nav ul li a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #0B8756;
+  color: #2D4D5D;
 }
 
 nav ul li a:visited {
-  color: #0B8756;
+  color: #2D4D5D;
 }
 
 .navtoggle li:not(:last-child) {
